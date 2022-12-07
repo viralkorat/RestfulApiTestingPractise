@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3004" started-at="2022-12-06T23:14:18 EST" finished-at="2022-12-06T23:14:21 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3004" started-at="2022-12-06T23:14:18 EST" finished-at="2022-12-06T23:14:21 EST">
+      <class name="RestfulApiTestingPractise.PostRequestUsingExcelData">
+        <test-method status="PASS" signature="test_post_1(java.lang.String,java.lang.String)[pri:0, instance:RestfulApiTestingPractise.PostRequestUsingExcelData@7a3d45bd]" name="test_post_1" duration-ms="1891" started-at="2022-12-06T23:14:19 EST" data-provider="dataProvider" finished-at="2022-12-06T23:14:21 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_post_1 -->
+        <test-method status="PASS" signature="test_post_1(java.lang.String,java.lang.String)[pri:0, instance:RestfulApiTestingPractise.PostRequestUsingExcelData@7a3d45bd]" name="test_post_1" duration-ms="376" started-at="2022-12-06T23:14:21 EST" data-provider="dataProvider" finished-at="2022-12-06T23:14:21 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_post_1 -->
+        <test-method status="PASS" signature="test_post_1(java.lang.String,java.lang.String)[pri:0, instance:RestfulApiTestingPractise.PostRequestUsingExcelData@7a3d45bd]" name="test_post_1" duration-ms="311" started-at="2022-12-06T23:14:21 EST" data-provider="dataProvider" finished-at="2022-12-06T23:14:21 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_post_1 -->
+      </class> <!-- RestfulApiTestingPractise.PostRequestUsingExcelData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
