@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3004" started-at="2022-12-06T23:14:18 EST" finished-at="2022-12-06T23:14:21 EST">
+  <suite name="Default suite" duration-ms="3487" started-at="2022-12-07T22:15:49 EST" finished-at="2022-12-07T22:15:52 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3004" started-at="2022-12-06T23:14:18 EST" finished-at="2022-12-06T23:14:21 EST">
+    <test name="Default test" duration-ms="3487" started-at="2022-12-07T22:15:49 EST" finished-at="2022-12-07T22:15:52 EST">
       <class name="RestfulApiTestingPractise.PostRequestUsingExcelData">
-        <test-method status="PASS" signature="test_post_1(java.lang.String,java.lang.String)[pri:0, instance:RestfulApiTestingPractise.PostRequestUsingExcelData@7a3d45bd]" name="test_post_1" duration-ms="1891" started-at="2022-12-06T23:14:19 EST" data-provider="dataProvider" finished-at="2022-12-06T23:14:21 EST">
+        <test-method status="PASS" signature="test_post_1(java.lang.String,java.lang.String)[pri:0, instance:RestfulApiTestingPractise.PostRequestUsingExcelData@7a3d45bd]" name="test_post_1" duration-ms="1990" started-at="2022-12-07T22:15:49 EST" data-provider="dataProvider" finished-at="2022-12-07T22:15:51 EST">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_post_1 -->
-        <test-method status="PASS" signature="test_post_1(java.lang.String,java.lang.String)[pri:0, instance:RestfulApiTestingPractise.PostRequestUsingExcelData@7a3d45bd]" name="test_post_1" duration-ms="376" started-at="2022-12-06T23:14:21 EST" data-provider="dataProvider" finished-at="2022-12-06T23:14:21 EST">
+        <test-method status="PASS" signature="test_post_1(java.lang.String,java.lang.String)[pri:0, instance:RestfulApiTestingPractise.PostRequestUsingExcelData@7a3d45bd]" name="test_post_1" duration-ms="465" started-at="2022-12-07T22:15:51 EST" data-provider="dataProvider" finished-at="2022-12-07T22:15:52 EST">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_post_1 -->
-        <test-method status="PASS" signature="test_post_1(java.lang.String,java.lang.String)[pri:0, instance:RestfulApiTestingPractise.PostRequestUsingExcelData@7a3d45bd]" name="test_post_1" duration-ms="311" started-at="2022-12-06T23:14:21 EST" data-provider="dataProvider" finished-at="2022-12-06T23:14:21 EST">
+        <test-method status="PASS" signature="test_post_1(java.lang.String,java.lang.String)[pri:0, instance:RestfulApiTestingPractise.PostRequestUsingExcelData@7a3d45bd]" name="test_post_1" duration-ms="504" started-at="2022-12-07T22:15:52 EST" data-provider="dataProvider" finished-at="2022-12-07T22:15:52 EST">
           <params>
             <param index="0">
               <value>

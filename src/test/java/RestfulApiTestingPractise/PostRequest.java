@@ -5,6 +5,7 @@ import static org.hamcrest.Matchers.equalTo;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.google.gson.Gson;
@@ -15,14 +16,15 @@ import static io.restassured.matcher.ResponseAwareMatcher.*;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.Matchers.*;
 
-public class PostRequest {
+public class PostRequest { 
 	
+	@Parameters({"names", "role"})
 	@Test
-	public void test_post_1() {
+	public void test_post_1(String names, String role) {
 		Map<String, Object> map = new HashMap<String, Object>();
 		
-		map.put("name", "nikunj");
-		map.put("job", "tester");
+		map.put("name", names);
+		map.put("job", role);
 		
 		Gson gson = new Gson();
 		
@@ -38,10 +40,10 @@ public class PostRequest {
 		.statusCode(201)
 		.body("name", equalTo("nikunj"))
 		.and()
-		.body("job", equalTo("tester"));
+		.body("job", equalTo("tester")).log().all();
 	
-		RestAssured.get("https://reqres.in/api/users").
-		then().assertThat().body(matchesJsonSchemaInClasspath("schema.json"))
-		.statusCode(200);
+//		RestAssured.get("https://reqres.in/api/users").
+//		then().assertThat().body(matchesJsonSchemaInClasspath("schema.json"))
+//		.statusCode(200);
 	}
 }

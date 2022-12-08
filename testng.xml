@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+<parameter name="names" value="nikunj"></parameter>
+<parameter name="role" value="tester"></parameter>
   <test thread-count="5" name="Test">
     <classes>
       <class name="RestfulApiTestingPractise.GetRequest"/>
